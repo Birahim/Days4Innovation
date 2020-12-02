@@ -403,11 +403,16 @@ header {
     rgba(0, 139, 130, 1) 48%
   );
 }
+.slick-slide img {
+  width: auto;
+  height: 375px;
+}
 .caroussel-item {
   padding-right: 30px;
   h5 {
     font-family: $helv35-font;
   }
+ 
 }
 .slide-arrow {
   position: absolute;
