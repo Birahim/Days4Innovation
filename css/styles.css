@@ -1013,6 +1013,28 @@ input.button:hover {
 
 .ie-wrapper {
   display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10000;
+  background-color: black;
+}
+
+.ie-wrapper h1 {
+  font-family: "HelveticaNeue65";
+  font-size: 2rem;
+}
+
+.ie-wrapper .animated-log img {
+  width: 100%;
+  height: auto;
 }
 
 /* end  splace holder white */

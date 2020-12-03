@@ -771,7 +771,23 @@ input.button {
 
 .ie-wrapper {
   display: none;
-  
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; 
+  position: fixed;
+  z-index: 10000;
+  background-color: black;
+  h1 {
+    font-family: $helv65-font;
+    font-size: 2rem;
+  }
+  .animated-log {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 /* end  splace holder white */
 
