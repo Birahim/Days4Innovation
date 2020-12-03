@@ -1011,6 +1011,10 @@ input.button:hover {
   font-family: "HelveticaNeue45";
 }
 
+.ie-wrapper {
+  display: none;
+}
+
 /* end  splace holder white */
 .thx-wrapper {
   display: -webkit-box;
