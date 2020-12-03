@@ -66,6 +66,9 @@ $helv65-font: "HelveticaNeue65";
     color: $primary-colors;
     font-size: 1vw;
   } 
+  .hero-call-to-action{
+    display: none;
+  }
   .ie-wrapper {
       display: flex;
       flex-direction: column;
@@ -81,7 +84,7 @@ $helv65-font: "HelveticaNeue65";
       }
       .animated-log {
         img {
-          width: 100%;
+          width: 50%;
           height: auto;
         }
       }

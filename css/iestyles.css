@@ -51,6 +51,9 @@
     color: #fff;
     font-size: 1vw;
   }
+  .hero-call-to-action {
+    display: none;
+  }
   .ie-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -73,7 +76,7 @@
     font-size: 2rem;
   }
   .ie-wrapper .animated-log img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 }
